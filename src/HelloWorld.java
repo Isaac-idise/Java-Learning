@@ -1,6 +1,6 @@
 public class HelloWorld {
 
-    public int product(int a, int b) {
+    public static int product(int a, int b) {
 
         return a * b;
     }
@@ -9,6 +9,11 @@ public class HelloWorld {
 
         return a - b;
 
+    }
+
+    public int sum(int a, int b) {
+
+        return a + b;
     }
 
     public static void main(String[] args) {
